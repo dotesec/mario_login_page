@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+
+body{
+    background:linear-gradient(to right, #000000,#049CD8,#FBD000,#E52521,#43B047) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+
+}
+.box{
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: auto;
+    margin-top: 20px;
+    margin-left: auto;
+    text-align: center;
+    font-family: sans-serif;
+    border-radius: 20px;
+    padding: 100px 0px;
+    width: 70vh;
+    height: auto;
+}
+.mario{
+    max-width: 15%;
+    max-height: 15%;
+}
+.login{
+    position: relative;
+    width: auto;
+    height: auto;
+}
+label{
+    position: relative;
+    width: auto;
+    height: auto;
+}
+.email,
+.pass{
+    border: none;
+    outline: none;
+    background: rgba(255, 255, 255, 0.3);
+    width: 60vh;
+    height: 7vh;
+    padding-left: 9vh;
+    border-radius: 20px;
+}
+.mailandpass{
+    position: absolute;
+    max-width: 4vh;
+    padding-left: 2vh;
+    padding-top: 1.4vh;
+    opacity: 0.5;
+}
+.tick{
+    position: absolute;
+    max-width: 4vh;
+    left: 60vh;
+    padding-top: 1.4vh;
+    opacity: 0;
+}
+.button{
+    position: relative;
+    border: none;
+    outline: none;
+    background: black;
+    color: white;
+    width: 60vh;
+    height: 7vh;
+    border-radius: 50px;
+}
+.text{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.other-items{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Ubuntu', sans-serif;
+}

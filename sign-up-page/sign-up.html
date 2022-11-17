@@ -1,0 +1,59 @@
+<html>
+    <head>
+        <title>Mario Login Page</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1,
+        maximum-scale=1">
+    </head>
+    
+    <body>
+        <link href="style.css" type="text/css" rel="stylesheet"/>
+        <div class="container">
+            <div class="box">
+                <img src="img/mario.png" class="mario" id="mario"> 
+                
+                <h1 class="text">Sign up</h1>
+                <form class="login-card">
+                    <div class="login">
+                        <img src="img/name.png" class="mailandpass">
+                        <input type="name" placeholder="Name" class="email" id="name" oninput="registration();">
+                    </div>
+                    <br/>
+                    <div class="login">
+                        <img src="img/name.png" class="mailandpass">
+                        <input type="name" placeholder="Surname" class="email" id="surname" oninput="registration();">
+                    </div>
+                    <br/>
+                    <div class="login">
+                        <img src="img/mail.png" class="mailandpass">
+                        <input type="email" placeholder="Email" class="email" id="email" oninput="registration();">
+                    </div>
+                    <br/>
+                    <script src="script.js"></script>    
+                    <div class="login">
+                        <img src="img/pass.png" class="mailandpass">
+                        <input type="password" placeholder="Password" class="email" id="pass" oninput="registration();">
+                        
+                    </div>
+                    <br/>
+                    <div class="login">
+                        <img src="img/pass.png" class="mailandpass">
+                        <input type="password" placeholder="re-Password" class="pass" id="repass" oninput="registration();">
+                    </div>
+                    <p id="p1"> </p>
+                    <br/>
+                    <br/>
+                    
+                    <div class="login">
+                        <button class="button" type="button" onclick="registration2();">Sign up</button>
+                    </div>
+                    <br/>
+                    <div class="login">
+                        <p class="text">Are you already sign up? <a href="#">Log in</a></p>
+                        
+                    </div>
+                </form>
+            </div>
+          </div>
+    </body>
+</html>

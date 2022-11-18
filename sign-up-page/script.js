@@ -152,4 +152,3 @@ function registration2()
 
     }
 }
-

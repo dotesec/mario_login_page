@@ -17,3 +17,8 @@ Sign up Page
 
 
 ![sign2](https://user-images.githubusercontent.com/77579741/202531638-f4673ac0-fb1d-4d0f-bb64-265107e74ce0.png)
+
+
+forget password page
+
+![image](https://user-images.githubusercontent.com/77579741/202777878-65d8fe86-bd7e-4027-9eef-5e3da02a34a9.png)

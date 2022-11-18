@@ -15,7 +15,7 @@ function forget()
     }
     else{
         document.getElementById("p1").style.color = "green";
-        document.getElementById("p1").innerHTML = "Your verefication has been send";
+        document.getElementById("p1").innerHTML = "your verification code has been sent";
     }
 }
 
